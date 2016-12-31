@@ -1,0 +1,54 @@
+21/12/16 08:57:01 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/camtourist/model/DAO/camtourist_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:12:41 PM | ERROR: [8] Undefined variable: timeout
+Notice on line 160 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+21/12/16 09:13:03 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/camtourist/model/DAO/camtourist_dao.class.singleton.php
+ |  | response 200
+21/12/16 09:13:47 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/camtourist/model/DAO/camtourist_dao.class.singleton.php
+ |  | response 200
+24/12/16 07:46:21 PM | ERROR: [8] Undefined variable: fields
+Notice on line 52 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/camtourist/model/DAO/camtourist_dao.class.singleton.php
+ |  | response 200
+24/12/16 07:48:21 PM | ERROR: [8] Undefined variable: timeout
+Notice on line 160 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:44 PM | ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: address
+Notice on line 22 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: user
+Notice on line 23 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: pass
+Notice on line 24 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: interests
+Notice on line 27 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: pais
+Notice on line 29 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:50:45 PM | ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200
+24/12/16 07:51:08 PM | ERROR: [8] Undefined variable: timeout
+Notice on line 160 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
+ | users | response 200

@@ -1,0 +1,138 @@
+/*--camtourist--*/
+
+#mapholder{
+    border:solid 1px rgba(144, 144, 144, 0.25);
+    border-radius: 5px;
+    width: 98%;
+    height: 300px;
+    display: inline-block;
+}
+@media(min-device-width:768px){
+
+    #mapholder{
+        width: 60%;
+        height: 650px;
+    }
+
+}
+.desc{
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+/*--camtourist--*/
+
+/*Info WIndows*/
+#map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    max-width: none;
+}
+#map-canvas img {
+    max-width: none !important;
+}
+.gm-style-iw {
+    width: 350px !important;
+    top: 15px !important;
+    left: 0px !important;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+    border: 1px solid rgba(72, 181, 233, 0.6);
+    border-radius: 2px 2px 10px 10px;
+}
+#iw-container {
+    margin-bottom: 10px;
+}
+#iw-container .iw-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: #48b5e9;
+    color: white;
+    margin: 0;
+    border-radius: 2px 2px 0 0;
+}
+#iw-container .iw-content {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-right: 1px;
+    padding: 15px 5px 20px 15px;
+    max-height: 140px;
+    width: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.iw-content img {
+  display: block;
+    float: right;
+    width: 140px;
+    height: 100px;
+    margin: 0 5px 0px 10px;
+    margin: ;
+}
+.iw-subTitle {
+   overflow: auto;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 5px 20px 15px;
+}
+.iw-bottom-gradient {
+    position: absolute;
+    width: 326px;
+    height: 25px;
+    bottom: 10px;
+    right: 18px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+/*Classes Parrafos InfoWindow*/
+.informacion{
+  text-align: justify;
+}
+
+.horas{
+  font-weight: bold;
+}
+
+/*Información adicional lateral*/
+#camtourist_puntos{
+  
+}
+.camtourist{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+.camtourist .of{
+    border:solid 1px #006666;
+    border-radius: 5px;
+
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 4px;
+}
+.camtourist .of:first-child{
+    margin-top:0;
+}
+.camtourist .of:hover{
+    border:solid 1px #ffd200;
+
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(144, 144, 144, 0.5);
+    -moz-box-shadow:    4px 4px 5px 0px rgba(144, 144, 144, 0.5);
+    box-shadow:         4px 4px 5px 0px rgba(144, 144, 144, 0.5);
+}
+.camtourist .of:hover .desc{
+
+    font-weight: lighter;
+}
+
+.desc{
+    font-weight: bold;
+    font-size: 1.3em;

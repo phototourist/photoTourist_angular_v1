@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functions>
+
+    <function>
+        <name>camtourist_mapa</name>
+        <uri>camtourist_mapa</uri>
+    </function>
+
+    <function>
+        <name>maploader</name>
+        <uri>maploader</uri>
+    </function>
+    
+</functions>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+    <module>
+        <name>main</name>
+        <uri>main</uri>
+    </module>
+    <module>
+        <name>users</name>
+        <uri>users</uri>
+    </module>
+    <module>
+        <name>productsfe</name>
+        <uri>productsfe</uri>
+    </module>
+    <module>
+        <name>camtourist</name>
+        <uri>camtourist</uri>
+    </module>
+    <module>
+        <name>contact</name>
+        <uri>contact</uri>
+    </module>
+</modules>
