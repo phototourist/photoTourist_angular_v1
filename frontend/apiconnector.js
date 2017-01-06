@@ -1,7 +1,7 @@
 app.factory("services", ['$http','$q', function ($http, $q) {
-    var serviceBase = '/proj_final_AngularJS/JoinElderly/backend/index.php?module=';
+    var serviceBase = '/photoTourist_angular_v1/backend/index.php?module=';
     var obj = {};
-        
+
         obj.get = function (module, functi) {
             var defered=$q.defer();
             var promise=defered.promise;
@@ -30,7 +30,7 @@ app.factory("services", ['$http','$q', function ($http, $q) {
               });
             return promise;
         };
-        
+
         obj.get = function (module, functi, dada, dada2) {
             var defered=$q.defer();
             var promise=defered.promise;
@@ -49,6 +49,7 @@ app.factory("services", ['$http','$q', function ($http, $q) {
         obj.post = function (module, functi, dada) {
           var defered=$q.defer();
           var promise=defered.promise;
+          console.log(dada);
           $http({
                 method: 'POST',
                 url: serviceBase + module + '&function=' + functi,
@@ -60,7 +61,7 @@ app.factory("services", ['$http','$q', function ($http, $q) {
             });
           return promise;
         };
-        
+
         obj.put = function (module, functi, dada) {
           var defered=$q.defer();
           var promise=defered.promise;

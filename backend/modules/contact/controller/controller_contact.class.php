@@ -6,32 +6,28 @@
             $_SESSION['module'] = "contact";
         }
 
-        public function view_contact() {
-
-            require_once(VIEW_PATH_INC."header.php");
-			require_once(VIEW_PATH_INC."menu.php");
-
-            loadView('modules/contact/view/', 'contact.php');
-
-            require_once(VIEW_PATH_INC."footer.html");
-        }
+        /**
+             * Send an email to client with the information that's filled in the form and send a copy to admin
+             *
+             * @return mixed[] Return an array containing a token, a name, an email, a subject and a message which has been filled
+             * by the user previously
+             */
 
         public function process_contact() {
 
 
-      if($_POST['token'] === "contact_form"){
-
-                //////////////// Envio del correo al usuario
-                $arrArgument = array(
-									'type' => 'contact',
-									'token' => '',
-									'inputName' => $_POST['inputName'],
-									'inputEmail' => $_POST['inputEmail'],
-									'inputSubject' => $_POST['inputSubject'],
-									'inputMessage' => $_POST['inputMessage']
-								);
-				set_error_handler('ErrorHandler');
-				try{
+          if ($_POST['token'] === "contact_form") {
+            //////////////// Send the email to client
+            $arrArgument = array(
+                'type' => 'contact',
+                'token' => '',
+                'inputName' => $_POST['inputName'],
+                'inputEmail' => $_POST['inputEmail'],
+                'inputSubject' => $_POST['inputSubject'],
+                'inputMessage' => $_POST['inputMessage']
+            );
+            set_error_handler('ErrorHandler');
+            try {
 /*
                     if (enviar_email($arrArgument)){
                         echo "<div class='alert alert-success'>Your message has been sent </div>";
@@ -39,9 +35,9 @@
                         echo "<div class='alert alert-error'>Server error. Try later...</div>";
                     }
 */
-                    echo "<div class='alert alert-success'>".enviar_email($arrArgument)." </div>";
+                    enviar_email($arrArgument);
 				} catch (Exception $e) {
-					echo "<div class='alert alert-error'>Server error. Try later...</div>";
+					$value = false;
 				}
 				restore_error_handler();
 
@@ -65,7 +61,8 @@
                     }
                     */
                     sleep(5);
-                    echo "<div class='alert alert-success'>".enviar_email($arrArgument)." </div>";
+                    enviar_email($arrArgument);
+                    echo "true|Tu mensaje ha sido enviado correctamente";
 				} catch (Exception $e) {
 					echo "<div class='alert alert-error'>Server error. Try later...</div>";
 				}

@@ -52,3 +52,78 @@ Warning on line 44 in file /var/www/html/photoTourist_framework_v2_prettyurls/mo
 24/12/16 07:51:08 PM | ERROR: [8] Undefined variable: timeout
 Notice on line 160 in file /var/www/html/photoTourist_framework_v2_prettyurls/modules/users/model/DAO/users_dao.class.singleton.php
  | users | response 200
+06/01/17 01:02:56 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:10:20 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:14:38 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:17:31 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:18:43 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:19:56 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:21:17 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:22:56 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:24:38 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:25:22 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:26:14 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:27:02 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:27:50 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:28:40 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:29:04 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:31:23 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:32:10 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:33:10 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:33:45 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:53:34 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 01:56:58 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 02:02:02 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 02:02:36 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 02:03:05 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200
+06/01/17 02:04:05 AM | ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | contact | response 200

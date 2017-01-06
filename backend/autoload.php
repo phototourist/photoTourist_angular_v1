@@ -31,10 +31,9 @@ function loadClasses($className) {
         elseif (file_exists('model/' . $className . '.class.singleton.php')) {//require(MODEL_PATH . "db.class.singleton.php");
             set_include_path('model/');
             spl_autoload($className);
-        }
-        //log
-        elseif (file_exists('classes/' . $className . '.class.singleton.php')) {//require(MODEL_PATH . "db.class.singleton.php");
-            set_include_path('classes/');
+         //log
+        }elseif (file_exists('classes/log/' . $className . '.class.singleton.php')) {//require(MODEL_PATH . "db.class.singleton.php");
+            set_include_path('classes/log/');
             spl_autoload($className);
         //mail
         }elseif( file_exists('classes/email/'.$className.'.class.singleton.php' ) ){//require(EMAIL . 'email.class.singleton.php');
@@ -44,6 +43,10 @@ function loadClasses($className) {
         }elseif( file_exists('libs/PHPMailer_v5.1/class.'.$className.'.php' ) ){//require(LIBS . 'PHPMailer_v5.1/class.phpmailer.php');
           set_include_path('libs/PHPMailer_v5.1/' );
           spl_autoload('class.'.$className);
-        }
+
+        }elseif (file_exists(LIBS . $className . '.class.php')) {
+          set_include_path(LIBS);
+          spl_autoload($className);
+    }
 
 }

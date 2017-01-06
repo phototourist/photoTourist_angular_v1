@@ -1,0 +1,55 @@
+<br>
+<script src="frontend/modules/contact/view/lib/bootstrap-button.js"></script>
+<script src="frontend/modules/contact/view/lib/jquery.validate.min.js"></script>
+<script src="frontend/modules/contact/view/lib/jquery.validate.extended.js"></script>
+
+<link href="frontend/modules/contact/view/css/bootstrap.min.css" rel="stylesheet">
+<link href="frontend/modules/contact/view/css/custom.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+
+<div class="container">
+    <form id="contact_form" name="contact_form" class="form-contact">
+        <h2 class="form-contact-heading">Contact Us</h2>
+
+        <div class="control-group">
+            <input required ng-model="contact.inputName" type="text" id="inputName" name="inputName" placeholder="Name" class="input-block-level" dir="auto" maxlength="100">
+            <span class="text-danger" ng-show="contact_form.inputName.$error.required && (contact_form.inputName.$dirty || contact_form.inputName.$touched)">El campo es obligatorio</span>
+        </div>
+        <div class="control-group">
+            <input required ng-model="contact.inputEmail" type="text" id="inputEmail" name="inputEmail" placeholder="Email *" class="input-block-level" maxlength="100">
+            <span class="text-danger" ng-show="contact_form.inputEmail.$error.required && (contact_form.inputEmail.$dirty || contact_form.inputEmail.$touched)">El campo es obligatorio</span>
+            <span class="text-danger" ng-show="contact_form.inputEmail.$error.email">Email no valido</span>
+        </div>
+        <div class="control-group">
+            <label for="sel1">Subject</label>
+            <select ng-model="contact.inputSubject" class="form-control" id="inputSubject" name="inputSubject" title="Choose subject">
+                <option value="">Info relativa a tu compra</option>
+                <option value="evento">Celebra un evento con nosotros</option>
+                <option value="programacion">Contacta con nuestro dpto de programacion</option>
+                <option value="Trabaja">Trabaja con nosotros</option>
+                <option value="proyectos">Deseas proponernos proyectos</option>
+                <option value="sugerencias">Haznos sugerencias</option>
+                <option value="reclamaciones">Atendemos tus reclamaciones</option>
+                <option value="club">Club rural_shop</option>
+                <option value="sociales">Proyectos sociales</option>
+                <option value="festivos">Apertura de festivos</option>
+                <option value="novedades">Te avisamos de nuestras novedades</option>
+                <option value="diferente">Algo diferente</option>
+            </select>
+        </div>
+        <div class="control-group">
+              <textarea required ng-model="contact.inputMessage" class="input-block-level" rows="4" name="inputMessage" placeholder="Message *" style="max-width: 100%;" dir="auto"></textarea>
+              <span class="text-danger" ng-show="contact_form.inputMessage.$error.required && (contact_form.inputMessage.$dirty || contact_form.inputMessage.$touched)">El campo es obligatorio</span>
+        </div>
+
+        <input type="hidden" name="token" value="contact_form" />
+
+        <input class="btn btn-primary" type="submit" name="submit" id="submitBtn" value="Enviar"
+               ng-show="contact_form.inputName.$valid && contact_form.inputEmail.$valid && contact_form.inputMessage.$valid"
+               ng-click="SubmitContact()"/>
+
+        <img ng-show="loader.loading" src="frontend/modules/contact/view/img/ajax-loader.gif" alt="ajax loader icon" class="ajaxLoader" /><br/><br/>
+
+        <div id="resultMessage" ng-class="class">{{message}}</div>
+    </form>
+</div> <!-- /container -->

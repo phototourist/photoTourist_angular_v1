@@ -1,54 +1,36 @@
 <?php
     //SITE_ROOT
-	$path=$_SERVER['DOCUMENT_ROOT'].'/photoTourist_framework_v2_prettyurls/';
+	$path=$_SERVER['DOCUMENT_ROOT'].'/photoTourist_angular_v1/backend/';
     define('SITE_ROOT', $path);
 
     //SITE_PATH
-    define('SITE_PATH', 'http://' . $_SERVER['HTTP_HOST'] . '/photoTourist_framework_v2_prettyurls/');
+    define('SITE_PATH', 'https://' . $_SERVER['HTTP_HOST'] . '/photoTourist_angular_v1/');
 
-		//CSS
-		define('CSS_PATH', SITE_PATH . 'view/css/');
-
-
-		//JS
-		define('JS_PATH', SITE_PATH . 'view/js/');
-
-		//IMG
-		define('IMG_PATH', SITE_PATH . 'view/images/');
-
-    //log
+		//log
     define('LOG_DIR',SITE_ROOT.'classes/log.class.singleton.php');
     define('USER_LOG_DIR',SITE_ROOT.'log/user/Site_User_errors.log');
     define('GENERAL_LOG_DIR',SITE_ROOT.'log/general/Site_General_errors.log');
 
 		//libs
-		define('LIBS',SITE_ROOT.'libs/');
+		define('LIBS',SITE_ROOT.'/libs/');
 
     //production
     define('PRODUCTION',true);
 
     //model
-    define('MODEL_PATH',SITE_ROOT.'model/');
-
-    //view
-    define('VIEW_PATH_INC',SITE_ROOT.'view/inc/');
-    define('VIEW_PATH_INC_ERROR',SITE_ROOT.'view/inc/templates_error/');
+    define('MODEL_PATH',SITE_ROOT.'/model/');
 
     //modules
-    define('MODULES_PATH',SITE_ROOT.'modules/');
+    define('MODULES_PATH',SITE_ROOT.'/modules/');
 
     //resources
-    define('RESOURCES',SITE_ROOT.'resources/');
+    define('RESOURCES',SITE_ROOT.'/resources/');
 
     //media
-    define('MEDIA_PATH',SITE_ROOT.'media/');
+    define('MEDIA_PATH',SITE_ROOT.'/media/');
 
     //utils
-    define('UTILS',SITE_ROOT.'utils/');
-
-		//model main
-		define('HOME_CSS_PATH', SITE_PATH . '/modules/main/view/css/');
-		define('HOME_JS_PATH', SITE_PATH . '/modules/main/view/js/');
+    define('UTILS',SITE_ROOT.'/utils/');
 
 		//model users
 	  define('FUNCTIONS_USERS', SITE_ROOT.'modules/users/utils/');

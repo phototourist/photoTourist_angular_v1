@@ -19,6 +19,11 @@
     session_start();
       $_SESSION['module'] = '';
 
+    $filter = inputfilter::getInstance();
+    $_POST = json_decode(file_get_contents('php://input'), true);
+    $_POST = $filter->process($_POST);
+    $_GET = $filter->process($_GET);
+
     function handlerRouter()
     {
 
