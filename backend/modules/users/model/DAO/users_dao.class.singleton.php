@@ -87,7 +87,7 @@ class users_dao{
             $stmt = $db->ejecutar($sql);
             return $db->listar($stmt);
         }
-
+/*
         public function select_DAO($db, $arrArgument) {//Seleccionamos Users según email
             $select = $arrArgument['select'];
             $email = $arrArgument['email'];
@@ -97,8 +97,8 @@ class users_dao{
             $stmt = $db->ejecutar($sql);
             return $db->listar($stmt);
         }
-
-        /*public function select_DAO($db, $arrArgument) {
+*/
+        public function select_DAO($db, $arrArgument) {
             $i = count($arrArgument['column']);
             $k = count($arrArgument['field']);
             $sql1 = "SELECT ";
@@ -121,7 +121,7 @@ class users_dao{
 
             $stmt = $db->ejecutar($sql);
             return $db->listar($stmt);
-        }*/
+        }
 
         public function update_user_DAO($db, $arrArgument) {
             /*

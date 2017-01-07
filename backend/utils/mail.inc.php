@@ -9,7 +9,7 @@
         switch ($arr['type']) {
             case 'alta'://La $ruta hay que cambiarla NO BUENA
                 $subject = 'BIENVENIDO A PHOTOTOURIST';
-                $ruta = '<a href=' . amigable("?module=users&function=activar", true) . $arr['token'] . '>aqu&iacute;</a>';
+                $ruta = "<a href='http://".$_SERVER['HTTP_HOST']."/photoTourist_angular_v1/#/user/activar/" . $arr['token'] . "'>aqu&iacute;</a>";//'<a href=' . amigable("?module=users&function=activar", true) . $arr['token'] . '>aqu&iacute;</a>';
                 $body = 'Gracias por unirte a PhotoTourist<br> Para finalizar el registro, pulsa ' . $ruta;
                 break;
 

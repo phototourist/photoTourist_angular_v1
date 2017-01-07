@@ -29,6 +29,7 @@ function validate_user_signup_PHP($value){
         $valido = false;
     }
 
+    
     return $return = array('resultado' => $valido, 'error' => $error, 'datos' => $resultado);
 }
 

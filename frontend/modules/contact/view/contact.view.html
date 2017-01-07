@@ -16,7 +16,7 @@
             <span class="text-danger" ng-show="contact_form.inputName.$error.required && (contact_form.inputName.$dirty || contact_form.inputName.$touched)">El campo es obligatorio</span>
         </div>
         <div class="control-group">
-            <input required ng-model="contact.inputEmail" type="text" id="inputEmail" name="inputEmail" placeholder="Email *" class="input-block-level" maxlength="100">
+            <input required ng-model="contact.inputEmail" type="email" id="inputEmail" name="inputEmail" placeholder="Email *" class="input-block-level" maxlength="100">
             <span class="text-danger" ng-show="contact_form.inputEmail.$error.required && (contact_form.inputEmail.$dirty || contact_form.inputEmail.$touched)">El campo es obligatorio</span>
             <span class="text-danger" ng-show="contact_form.inputEmail.$error.email">Email no valido</span>
         </div>

@@ -6,6 +6,7 @@
             </p>
             <hr>
       </div>
+        <form id="signup_form" name="signup_form" class="">
         <!--Por Ahora esto no se usa-->
         <div class="status alert alert-success" style="display: none"></div>
         <div class="login_signup">
@@ -30,24 +31,37 @@
             <div class=""><hr></div>
 
             <div class="control-group">
-                <label>Email *</label>
-                <input type="text" id="signup_email" name="signup_email" placeholder="email" class="form-control" value="" required="required">
-                <div id="e_singup_email"></div>
-            </div>
+              <label>Email *</label>
+              <input required ng-model="signup.inputEmail" type="email" id="inputEmail" name="inputEmail"
+              placeholder="Email" class="form-control"  maxlength="100"
+              ng-pattern="/^[a-z0-9!#$%&'*+/=?^_`{|}~.-]+@[a-z0-9-]+(\.[a-z0-9-]+)*$/i" ng-change="change_signup()">
+              <span class="text-danger" ng-show="signup_form.inputEmail.$error.required && (signup_form.inputEmail.$dirty || signup_form.inputEmail.$touched)">El campo es obligatorio</span>
+              <span class="text-danger" ng-show="signup_form.inputEmail.$error.email">Email no valido</span>
+              <span class="text-danger" ng-show="AlertMessage" ng-model="signup.email_error">{{signup.email_error}}</span>
+
+          </div>
             <br/>
             <div class="control-group">
                 <label>Password *</label>
-                <input type="password" id="signup_password" name="signup_password" placeholder="password" class="form-control" value="" required="required">
+                <input ng-model="signup.inputPass" ng-pattern="/^.{6,12}$/" ng-change="change_signup()" type="password" id="inputPass" name="inputPass" placeholder="password" class="form-control" value="" required>
+                <span class="text-danger" ng-show="signup_form.inputPass.$error.required && (signup_form.inputPass.$dirty || signup_form.inputPass.$touched)">El campo es obligatorio</span>
+                <span class="text-danger" ng-show="signup_form.inputPass.$error.pattern">Passwd no válido</span><br />
+                <span class="text-danger" ng-show="AlertMessage" ng-model="signup.pass_error">{{signup.pass_error}}</span>
                 <div id="e_singup_password"></div>
             </div>
             <br/>
 
             <div class="form-group">
-                <button type="button" id="registrar_user" name="registrar_user" class="btn btn-primary btn-lg centrado" value="REGISTRARSE">REGISTRARSE</button>
+                <button type="Submit" id="registrar_user" name="registrar_user" class="btn btn-primary btn-lg centrado" value="REGISTRARSE"
+                ng-click="SubmitSignUp()">REGISTRARSE</button>
             </div>
             <div class=""><hr></div>
         <!--/.row-->
+        <div id="resultMessage"></div>
+
     </div>
+
+</form>
     <!--/.container-->
 </section>
 <!--/#contact-page-->

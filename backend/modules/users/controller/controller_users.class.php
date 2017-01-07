@@ -24,7 +24,7 @@
       public function signup_user()
       {
           $jsondata = array();
-          $userJSON = json_decode($_POST['signup_user_json'], true);
+          $userJSON = $_POST;
 
           $result = validate_user_signup_PHP($userJSON);
 
@@ -39,16 +39,23 @@
               'token' => '',
             );
 
+
             /* Control de registro */
             set_error_handler('ErrorHandler');
               try {
                   //loadModel
               $arrValue = loadModel(MODEL_USERS, 'users_model', 'count', array('column' => array('email'), 'like' => array($arrArgument['email'])));
+
                   if ($arrValue[0]['total'] == 1) {
                       //Tenemos 1 User con email que buscamos
-                      $arrValue = false;
                       $typeErr = 'Email';
-                      $error = 'Email ya registrado';
+                        $error = "Email ya registrado";
+
+                        $jsondata["success"] = false;
+                        $jsondata['typeErr'] = $typeErr;
+                        $jsondata["error"] = $error;
+                        echo json_encode($jsondata);
+                        exit;
                   }
               } catch (Exception $e) {
                   $arrValue = false;
@@ -57,47 +64,34 @@
               restore_error_handler();
             /* Fin de control de registro */
 
-            if ($arrValue) {
-                set_error_handler('ErrorHandler');
-
-                try {
-                    //loadModel
-                $arrArgument['token'] = 'Ver'.md5(uniqid(rand(), true)); // La función Ver esta en el init.js
-                $arrValue = loadModel(MODEL_USERS, 'users_model', 'create_user', $arrArgument);
-                } catch (Exception $e) {
-                    $arrValue = false;
-                }
-
-                restore_error_handler();
-
-              //Enviamos en Token
-              if ($arrValue) {
-                  //Si todo el proceso es CORRECTO enviamos Token y redireccionamos
-                sendtoken($arrArgument, 'alta');
-                $url = amigable('?module=main&function=begin&param=reg', true);
-                //$url = amigable('?module=users&function=profile', true);
-
-                  $jsondata['success'] = true;
-                  $jsondata['redirect'] = $url;
-                  echo json_encode($jsondata);
-              } else {
-                  $url = amigable('?module=main&function=begin&param=503', true);
-                  $jsondata['success'] = true;
-                  $jsondata['redirect'] = $url;
-                  echo json_encode($jsondata);
-              }
-            } else {
-                $jsondata['success'] = false;
-                $jsondata['typeErr'] = $typeErr;
-                $jsondata['error'] = $error;
-                echo json_encode($jsondata);
+            set_error_handler('ErrorHandler');
+            try {
+                $arrArgument['token'] = "Ver" . md5(uniqid(rand(), true));
+                $arrValue = loadModel(MODEL_USERS, "users_model", "create_user", $arrArgument);
+            } catch (Exception $e) {
+                $arrValue = false;
             }
-          } else {
-              $jsondata['success'] = false;
-              $jsondata['typeErr'] = $result['error'];
-              $jsondata['datos'] = $result;
-              echo json_encode($jsondata);
-          }
+            restore_error_handler();
+
+            if ($arrValue) {
+                sendtoken($arrArgument, "alta");
+                $jsondata["success"] = true;
+                echo json_encode($jsondata);
+                exit;
+            } else {
+                $jsondata["success"] = false;
+                $jsondata['typeErr'] = "error_server";
+                echo json_encode($jsondata);
+                exit;
+            }
+            ///////////////////////////////////////////////////////////////////
+        } else {
+            $jsondata["success"] = false;
+            $jsondata['typeErr'] = "error";
+            $jsondata["error"] = $result;
+            echo json_encode($jsondata);
+            exit;
+        }
       }
 
       public function verify()
@@ -120,19 +114,23 @@
               }
               restore_error_handler();
 
+                set_error_handler('ErrorHandler');
               if ($value) {
-                require_once VIEW_PATH_INC.'header.php';
-                require_once VIEW_PATH_INC.'menu.php';
-
-                echo '<br><br>';
-                loadView('modules/main/view/', 'main.php');
-
-                require_once VIEW_PATH_INC.'footer.html';
-
-              } else {
-                  showErrorPage(1, '', 'HTTP/1.0 503 Service Unavailable', 503);
+                  $arrArgument = array(
+                      'column' => array("token"),
+                      'like' => array($_GET['param']),
+                      'field' => array('*')
+                  );
+                  $user = loadModel(MODEL_USERS, "users_model", "select", $arrArgument);
+                  $json['user'] = $user;
+                  $json['success'] = true;
+                  echo json_encode($json);
+                  exit();
               }
-          }
+              restore_error_handler();
+              echo json_encode($value);
+
+        }
       }
     //end SignUp
 
@@ -362,7 +360,7 @@
                     exit;
                 }
             }
-          
+
       }
 
       public function load_provinces_users()

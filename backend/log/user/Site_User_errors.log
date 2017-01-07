@@ -127,3 +127,576 @@ Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/c
 ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
 Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
  | 06.01.2017 02:04:05  |  User:   | contact | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:39:41  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:39:41  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:39:41  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:39:41  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:44:44  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:44:44  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:44:44  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:44:44  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:49:37  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:49:37  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:49:37  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:49:37  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:52:47  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:52:47  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:52:47  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:52:47  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:56:47  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:56:47  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:56:47  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 05:56:47  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:00:47  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:00:47  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:00:47  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:00:47  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:06:42  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:06:42  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:06:42  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:06:42  |  User:   | users | response 200
+ERROR: [2] mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+Warning on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:07:46  |  User:   | users | response 200
+ERROR: [2] mysqli_set_charset(): Couldn't fetch mysqli
+Warning on line 50 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:07:46  |  User:   | users | response 200
+ERROR: [2] mysqli::select_db(): Couldn't fetch mysqli
+Warning on line 51 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:07:46  |  User:   | users | response 200
+ERROR: [2] mysqli::query(): Couldn't fetch mysqli
+Warning on line 57 in file /home/jorge/projects/photoTourist_angular_v1/backend/model/db.class.singleton.php
+ | 07.01.2017 06:07:46  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant MODEL_USER - assumed 'MODEL_USER'
+Notice on line 70 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/controller/controller_users.class.php
+ | 07.01.2017 06:17:01  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 06:17:57  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 07:04:35  |  User:   | contact | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 07:18:47  |  User:   | contact | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:26:58  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 07:26:59  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 07:26:59  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 07:44:44  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 08:10:52  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 08:32:15  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 08:41:24  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 08:52:53  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 08:52:54  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 08:52:54  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 09:05:25  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:07:33  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:07:33  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:09:12  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:09:12  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:10:02  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:10:02  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:10:40  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:10:40  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:23:39  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:23:39  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:27:05  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:27:05  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:28:16  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:28:16  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:33:18  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:33:18  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:33:41  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:33:41  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:35:53  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:35:53  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 110 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:35:54  |  User:   | users | response 200
+ERROR: [8] Undefined variable: fields
+Notice on line 116 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:35:54  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:40:16  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:40:16  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 110 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:40:16  |  User:   | users | response 200
+ERROR: [8] Undefined variable: fields
+Notice on line 116 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 09:40:16  |  User:   | users | response 200
+ERROR: [8] Undefined index: name
+Notice on line 18 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: last_name
+Notice on line 19 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: birth_date
+Notice on line 20 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: title_date
+Notice on line 21 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: address
+Notice on line 22 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: user
+Notice on line 23 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: en_lvl
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: interests
+Notice on line 27 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: pais
+Notice on line 29 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: provincia
+Notice on line 30 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: poblacion
+Notice on line 31 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [2] Invalid argument supplied for foreach()
+Warning on line 44 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Use of undefined constant IMG_RURAL_SHOP - assumed 'IMG_RURAL_SHOP'
+Notice on line 26 in file /home/jorge/projects/photoTourist_angular_v1/backend/classes/email/email.class.singleton.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined index: inputName
+Notice on line 49 in file /home/jorge/projects/photoTourist_angular_v1/backend/utils/mail.inc.php
+ | 07.01.2017 11:18:17  |  User:   | users | response 200
+ERROR: [8] Undefined variable: change
+Notice on line 143 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 08.01.2017 12:50:20  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 148 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 08.01.2017 12:50:20  |  User:   | users | response 200
+ERROR: [8] Undefined variable: sql
+Notice on line 110 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 08.01.2017 12:50:21  |  User:   | users | response 200
+ERROR: [8] Undefined variable: fields
+Notice on line 116 in file /home/jorge/projects/photoTourist_angular_v1/backend/modules/users/model/DAO/users_dao.class.singleton.php
+ | 08.01.2017 12:50:21  |  User:   | users | response 200

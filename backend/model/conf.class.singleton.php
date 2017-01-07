@@ -10,10 +10,10 @@
         private function __construct(){
             $cnfg = parse_ini_file(MODEL_PATH.'bd.ini');
             //Fijarse si cambiamos los parametros en bd.ini
-            $this->_userdb = $cnfg['_user'];
-            $this->_passdb = $cnfg['_password'];
-            $this->_hostdb = $cnfg['_host'];
-            $this->_db = $cnfg['_db'];
+            $this->_userdb = $cnfg['user'];
+            $this->_passdb = $cnfg['password'];
+            $this->_hostdb = $cnfg['host'];
+            $this->_db = $cnfg['db'];
         }
 
         private function __clone() {

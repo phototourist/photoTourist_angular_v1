@@ -23,8 +23,8 @@
 	<!-- //////////////////ESTO DESPUES///////////////////////////// Código para definir estilo CSS de geolocalización
 		<link href="<?php echo CAMTOURIST_CSS_PATH ?>geolocation.css" rel='stylesheet' type='text/css' />-->
 
-	<!-- //////////////////ESTO DESPUES///////////////////////////// Código para definir estilo CSS de users: solo singin y singup
-	<link href="<?php echo USERS_CSS_PATH ?>users.css" rel='stylesheet' type='text/css' />-->
+
+	<link href="frontend/modules/user/view/css/users.css" rel='stylesheet' type='text/css' />
 
 	<!-- Código para obtener las tipografías elegidas de Google Font-->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -66,6 +66,7 @@
     <div ng-include='"frontend/assets/includes/menu.view.html"'></div>
     <div ng-view></div>
     <div ng-include='"frontend/assets/includes/footer.view.html"'></div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular-animate.min.js" ></script>
@@ -73,13 +74,19 @@
 
           <script src="frontend/app.js"></script>
           <script src="frontend/modules/contact/controller/contact.controller.js"></script>
+          <script src="frontend/modules/user/controller/user.controller.js"></script>
+          <script src="frontend/modules/main/controller/main.controller.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.1.2/ui-bootstrap-tpls.min.js"></script>
           <script src="frontend/apiconnector.js"></script>
           <script src="frontend/common.service.js"></script>
-          <script src="frontend/modules/main/controller/main.controller.js"></script>
 
-
-
+            <script src="frontend/modules/user/services/user.service.js"></script>
+            <script src="frontend/modules/user/directives/user.directives.js"></script>
+          <script src="frontend/modules/user/services/load_selects.services.js"></script>
+          <script src="frontend/modules/user/services/cookies.services.js"></script>
+          <script src="frontend/modules/user/services/localstorage.services.js"></script>
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.2.0/min/dropzone.min.js"></script>
           <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/dropzone.css" />
           <script src="frontend/modules/user/libs/angular-facebook.js"></script>
+          <script src="frontend/modules/user/services/social.services.js"></script>
+          <script src="frontend/modules/user/libs/oauth.js"></script>
